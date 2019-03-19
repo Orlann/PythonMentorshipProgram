@@ -1,2 +1,2 @@
 # PythonMentorshipProgram
-Repository for ready tasks
+Repository for ready tasks.
