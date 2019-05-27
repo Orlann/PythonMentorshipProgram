@@ -90,7 +90,7 @@ def write_avg_prices_to_csv(db_name, file_name="average_prices.csv"):
 
 def main():
     create_table_in_db("OLX_DB.sqlite3")
-    dates_array = get_dates_between_2_dates(2017, 2, 11, 2017, 3, 15)
+    dates_array = get_dates_between_2_dates(2017, 1, 1, 2017, 12, 31)
     for date in dates_array:
         url_for_request = create_url(date)
         print(url_for_request)
